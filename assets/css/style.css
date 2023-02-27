@@ -1,0 +1,108 @@
+/* Cor de fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f7fb;
+}
+
+/* Cor de fundo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2381c7;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Cor de fundo do formulário */
+.form-compra {
+    background-color: #eff5fb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.login-form {
+    background-color: #eff5fb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 425px) {
+
+    /* Reduz a fonte do cabeçalho */
+    header {
+        font-size: 28px;
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+
+    /* Alinha o formulário ao centro */
+    form {
+        margin: 0 auto;
+    }
+
+    .login-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/* Cor de fundo da seção de descrição */
+#descricao {
+    background-color: #eff5fb;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 425px) {
+
+    /* Reduz o tamanho da fonte do cabeçalho */
+    h2 {
+        font-size: 28px;
+    }
+
+    /* Reduz o tamanho da fonte dos itens da lista */
+    ul li {
+        font-size: 16px;
+    }
+}
+
+/* Cor de fundo do botão */
+input[type="submit"] {
+    background-color: #2381c7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cor de fundo do botão quando hover */
+input[type="submit"]:hover {
+    background-color: #144e78;
+}
+
+/* Cor do texto do link */
+a {
+    color: #2381c7;
+    text-decoration: none;
+}
+
+/* Cor do texto do link quando hover */
+a:hover {
+    color: #144e78;
+}
