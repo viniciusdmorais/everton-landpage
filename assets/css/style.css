@@ -87,6 +87,13 @@ header {
     ul li {
         font-size: 16px;
     }
+
+    #ebook {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* Cor de fundo do botão */
