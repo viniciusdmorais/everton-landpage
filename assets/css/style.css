@@ -67,6 +67,13 @@ header {
     margin-top: 40px;
 }
 
+#ebook {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 425px) {
 
