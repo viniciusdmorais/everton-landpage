@@ -55,7 +55,7 @@ nav p:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('/main/assets/img/Everton-7.png');
+    background-image: url('/assets/img/Everton-7.png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -277,6 +277,14 @@ footer p {
 
     #apresentacao h1 {
         font-size: 24px;
+        color: #000000;
+    }
+
+    #apresentacao h2 {        
+        color: #000000;
+    }
+    
+    #apresentacao h3 {
         color: #000000;
     }
 
