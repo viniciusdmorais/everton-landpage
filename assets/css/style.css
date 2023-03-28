@@ -55,7 +55,7 @@ nav p:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('/assets/img/Everton-6.png');
+    background-image: url('/assets/img/Everton-7.png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -78,9 +78,9 @@ nav p:hover {
 }
 
 #conteudo-apresentacao {
-    margin-top: 150px;
-    margin-right: 30%;
+    color: #ffffff;
 }
+    
 
 /* Estilos da seção sobre mim */
 #sobre-mim {
