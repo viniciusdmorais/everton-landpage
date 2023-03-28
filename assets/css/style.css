@@ -1,0 +1,368 @@
+/* Estilos globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav p {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav p:hover {
+    color: #e74c3c;
+}
+
+
+
+/* Estilos da seção de apresentação */
+#apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/assets/img/Everton-7.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 114px;
+}
+
+#apresentacao h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+#apresentacao p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 30px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+#conteudo-apresentacao {
+    color: #ffffff;
+}
+    
+
+/* Estilos da seção sobre mim */
+#sobre-mim {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+#sobre-mim h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+#sobre-mim p {
+    display: flex;
+    font-size: 18px;
+    color: #333;
+    margin-top: 30px;
+    line-height: 1.5;
+
+}
+
+#sobremim-1 {
+    justify-content: left;
+
+}
+
+#sobremim-2 {
+    justify-content: center;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#sobremim-3 {
+    justify-content: right;
+}
+
+#sobre-mim a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#sobre-mim a:hover {
+    background-color: #fff;
+    color: #e74c3c;
+}
+
+/* Estilos da seção de conteúdo */
+#conteudo {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#conteudo h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+#conteudo p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+#conteudo img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+/* Definir estilos para a seção de newsletter */
+#newsletter {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+#newsletter h1 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+#newsletter p {
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-right: 15%;
+}
+
+#newsletter input[type=email] {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#newsletter button[type=submit] {
+    background-color: #2196f3;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#newsletter button[type=submit]:hover {
+    background-color: #0d8bf0;
+}
+
+#newsletter-conteudo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer a:hover {
+    color: #2196f3;
+}
+
+footer img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+
+    /* Estilos do cabeçalho */
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav p {
+        font-size: 14px;
+    }
+
+    /* Estilos da seção de apresentação */
+    #apresentacao {
+        background-image: none;
+    }
+
+    #apresentacao h1 {
+        font-size: 24px;
+        color: #000000;
+    }
+
+    #apresentacao h2 {        
+        color: #000000;
+    }
+    
+    #apresentacao h3 {
+        color: #000000;
+    }
+
+    #apresentacao p {
+        font-size: 14px;
+        max-width: 100%;
+        color: #000000;
+    }
+
+    /* Estilos da seção sobre mim */
+    #sobre-mim h1 {
+        font-size: 28px;
+    }
+
+    #sobre-mim p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #sobremim-2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #sobre-mim a {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    /* Estilos da seção de conteúdo */
+    #conteudo h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #conteudo p {
+        font-size: 16px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #conteudo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Estilos da seção de newsletter */
+    #newsletter h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #newsletter p {
+        font-size: 1em;
+        margin-bottom: 20px;
+        margin-right: 5%;
+    }
+
+    #newsletter input[type=email] {
+        font-size: 1em;
+        padding: 5px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    #newsletter button[type=submit] {
+        padding: 5px 10px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    #newsletter-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
