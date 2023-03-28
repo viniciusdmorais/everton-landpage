@@ -271,18 +271,19 @@ footer p {
     }
 
     /* Estilos da seção de apresentação */
+    #apresentacao {
+        background-image: none;
+    }
+
     #apresentacao h1 {
         font-size: 24px;
+        color: #000000;
     }
 
     #apresentacao p {
         font-size: 14px;
         max-width: 100%;
-    }
-
-    #conteudo-apresentacao {
-        margin-top: 100px;
-        margin-right: 10%;
+        color: #000000;
     }
 
     /* Estilos da seção sobre mim */
@@ -349,6 +350,11 @@ footer p {
         padding: 5px 10px;
         font-size: 14px;
         border-radius: 10px;
+    }
+
+    #newsletter-conteudo {
+        display: flex;
+        flex-direction: column;
     }
 
 }
